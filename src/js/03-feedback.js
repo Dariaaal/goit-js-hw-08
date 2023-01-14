@@ -22,6 +22,7 @@ function onFormSubmit(evt){
     evt.preventDefault();
     evt.currentTarget.reset();
     localStorage.removeItem('feedback-form-state');
+    console.log(userFeedback);
 }
 
 function fillInput(){
